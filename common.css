@@ -21,14 +21,19 @@
 
 .common-btn{
   height: 40px;
-  min-width: 13%;
+  min-width: 17%;
   text-align: center;
   color: #D19C97;
   border-radius: 0;
   border: 1px solid #ddd;
   background-color: #fff;
+  margin-right:10px;
 }
 .common-btn span{
   font-size: 16px;
   font-weight: 800;
+}
+.common-btn span i{
+  padding-right: 13px;
+  padding-left: 1px;
 }
