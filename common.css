@@ -2,6 +2,7 @@
   margin: 0;
   padding:0;
   box-sizing:border-box;
+  font-family: "Poppins", serif;
 }
 .wrapper{
   margin-left: 5%;
@@ -21,13 +22,13 @@
 
 .common-btn{
   height: 40px;
-  min-width: 17%;
+  min-width: 18%;
   text-align: center;
   color: #D19C97;
   border-radius: 0;
   border: 1px solid #ddd;
   background-color: #fff;
-  margin-right:10px;
+  margin-right: 10px;
 }
 .common-btn span{
   font-size: 16px;
