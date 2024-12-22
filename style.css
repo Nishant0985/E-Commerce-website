@@ -1,5 +1,6 @@
 .header{
   margin-top: 25px;
+  min-height: 85px;
 }
 .logo h1{
   font-size: 38px;
@@ -39,3 +40,35 @@
 .select-product{
   text-align: right;
 }
+.categorie-header{
+height: 50px;
+background-color: #D19C97;
+}
+
+.categorie-header h4{
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+.categorie-header span{
+    float: right;
+    padding: 20px;
+}
+.categorie-list ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #ddd ;
+}
+
+.categorie-list ul li{
+  border-bottom: 1px solid #ddd;
+    padding: 10px 40px;
+}
+.categorie-list ul li a{
+  color: #333;
+  text-decoration: none;
+}
+
