@@ -1,6 +1,8 @@
 .header{
   margin-top: 25px;
   min-height: 85px;
+  border-bottom: 1px solid #D19C97;
+  margin-bottom: 10px;
 }
 .logo h1{
   font-size: 38px;
@@ -71,4 +73,44 @@ background-color: #D19C97;
   color: #333;
   text-decoration: none;
 }
+
+/*  */
+.shop-menu{
+  display: flex;
+}
+.left-menu-list{
+  width: 75%;
+}
+.right-menu-list{
+  width: 25%;
+  direction: rtl;
+}
+.shop-menu ul{
+  display: flex;
+  list-style-type: none;
+  font-size: 18px;
+}
+.shop-menu ul li{
+  min-width: 75px;
+  padding: 15px;
+}
+.shop-menu ul li a{
+  color: #333;
+  text-decoration: none;
+}
+.shop-menu ul li a:hover{
+  color: #D19C97;
+}
+.shop-menu ul.dropdown{
+  display:none;
+  border: 1px solid #ddd;
+  
+  position: absolute;
+  box-shadow: #ccc 1px 1px 4px;
+}
+.dropdown-head:hover ul.dropdown{
+  display: block;
+}
+
+
 
