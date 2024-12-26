@@ -172,6 +172,26 @@
   padding-left: 20px;
   font-weight: 600;
 }
+/*  */
+.categorie-item{
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.categorie-item .product-count{
+  text-align: right;
+  margin-bottom: 10px;
+}
+.categorie-item .categorie-image img{
+  width: 100% ;
+}
+.categorie-item .categorie-type h5{
+  font-size: 25px;
+  margin-top:11px;
+  text-align: center;
+}
 
 
 
