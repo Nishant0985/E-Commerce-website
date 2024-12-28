@@ -19,6 +19,9 @@
 .next-row{
   clear: both;
 }
+.wid-33{
+  width:33.3%
+}
 .wid-50{
   width: 50%;
 }
