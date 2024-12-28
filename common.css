@@ -47,3 +47,7 @@
   padding-right: 13px;
   padding-left: 1px;
 }
+
+.offer-banner .flip-img{
+  transform: scaleX(-1);
+}
